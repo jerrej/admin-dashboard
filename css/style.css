@@ -71,6 +71,8 @@ html {
 .top {
     width: 100vw;
     height: 10vh;
+    display: flex;
+    overflow: hidden;
     box-sizing: border-box;
     border: 1px solid red;
 }
@@ -78,7 +80,11 @@ html {
 .left {
     width: 10vw;
     height: 90vh;
-    display:flex;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     box-sizing: border-box;
     border: 2px solid red;
 }
@@ -86,49 +92,91 @@ html {
 .right {
     width: 90vw;
     height: 90vh;
+    display: flex;
+    overflow: hidden;
     box-sizing: border-box;
     border: 2px solid red;
 }
 
 .logo {
+    flex: 0.1;
     box-sizing: border-box;
     border: 1px solid blue;
-    margin:5px;
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .search {
+    flex: 0.8;
     box-sizing: border-box;
     border: 1px solid blue;
-    margin:5px;
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .user {
+    flex: 0.1;
     box-sizing: border-box;
     border: 1px solid blue;
-    margin:5px;
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .nav {
     box-sizing: border-box;
     border: 1px solid blue;
-    margin:5px;
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .main-content {
+    flex: 0.8;
+    display: flex;
+    flex-flow: column;
     box-sizing: border-box;
     border: 1px solid blue;
-    margin:5px;
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .side-content {
+    flex: 0.2;
+    display: flex;
+    flex-flow: column;
     box-sizing: border-box;
     border: 1px solid blue;
-    margin:5px;
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
 
+.projects {
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid green;
+    margin: 5px;
+    padding: 5px;
+}
+
+.announcements {
+    flex: 0.5;
+    box-sizing: border-box;
+    border: 1px solid green;
+    margin: 5px;
+    padding: 5px;
+}
+
+.trending {
+    flex: 0.5;
+    box-sizing: border-box;
+    border: 1px solid green;
+    margin: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
