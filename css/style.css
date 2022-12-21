@@ -78,14 +78,57 @@ html {
 .left {
     width: 10vw;
     height: 90vh;
+    display:flex;
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 .right {
     width: 90vw;
     height: 90vh;
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 2px solid red;
+}
+
+.logo {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin:5px;
+    padding:5px;
+}
+
+.search {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin:5px;
+    padding:5px;
+}
+
+.user {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin:5px;
+    padding:5px;
+}
+
+.nav {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin:5px;
+    padding:5px;
+}
+
+.main-content {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin:5px;
+    padding:5px;
+}
+
+.side-content {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin:5px;
+    padding:5px;
 }
 
