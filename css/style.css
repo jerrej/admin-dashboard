@@ -77,6 +77,12 @@ html {
     resize: both;
 }
 
+.left {
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-color: #2980b9;
+}
+
 .top {
     grid-column-start: 2;
     grid-column-end: 6;
@@ -84,12 +90,6 @@ html {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     background-color: #27ae60;
-}
-
-.left {
-    grid-row-start: 1;
-    grid-row-end: 6;
-    background-color: #2980b9;
 }
 
 .right {
@@ -161,6 +161,24 @@ html {
 }
 
 .side-content {
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 5px;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 5px;
+}
+
+.projects-item {
+    grid-row-start: 2;
     box-sizing: border-box;
     border: 1px solid #fff;
     margin: 5px;
