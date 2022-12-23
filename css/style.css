@@ -64,11 +64,9 @@ html {
 
 .nav h1 {
     margin-bottom: 2em;
-    font-weight: 800;
 }
 
 .nav li {
-    font-weight: 600;
     margin-bottom: 1em;
     margin-left: 1em;
 }
@@ -169,10 +167,6 @@ article {
     padding: 4px;
 }
 
-.announcements {
-
-}
-
 .trending {
 /*     box-sizing: border-box;
     border: 1px solid #fff; */
@@ -180,12 +174,6 @@ article {
     padding: 4px;
 }
 
-h1 {
-    font-size: 1.5em;
-/*     box-sizing: border-box;
-    border: 1px solid #fff; */
-
-}
 
 
 /*
