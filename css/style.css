@@ -1,8 +1,12 @@
 :root {
-    --bgc: #2c3e50;
-    --bgc2: #34495e;
-    --fc: #ecf0f1;
-    --fc2: #bdc3c7;
+    --bgc-nav: ;
+    --bgc-header: ;
+    --bgc-main: ; 
+    --bgc-footer: ; 
+    --fc-nav: ;
+    --fc-header: ;
+    --fc-main: ; 
+    --fc-footer: ; 
 }
 
 html {
@@ -12,7 +16,7 @@ html {
 
 /* Container */
 
-.dashboard-container {
+body {
     width: 100vw;
     height: 100vh;
     display: inline-grid;
@@ -23,7 +27,7 @@ html {
 
 /* Sections */
 
-.left {
+nav {
     background-color: #3498db;
     color: #ecf0f1;
     grid-row-start: 1;
@@ -32,7 +36,7 @@ html {
 
 }
 
-.top {
+header {
     /*box-shadow: 0 0.2em 0.2em rgb(0 0 0 / 30%);*/
     background-color: #ecf0f1;
     grid-column-start: 2;
@@ -43,7 +47,7 @@ html {
     padding: 20px;
 }
 
-.right {
+main {
     background-color: #bdc3c7;
     grid-column-start: 2;
     grid-column-end: 6;
@@ -55,11 +59,8 @@ html {
     padding: 20px;
 }
 
-/* Side section */
+/* Nav section */
 
-.nav {
-
-}
 
 .nav h1 {
     margin-bottom: 40px;
@@ -80,7 +81,7 @@ html {
     margin-right: 20px;
 }
 
-/* Top Section */
+/* Header section */
 
 .search {
     grid-column-start: 1;
@@ -92,6 +93,7 @@ html {
     border: none;
     background-color: #fff;
     border-radius: 20px;
+    padding-left: 10px;
 }
 
 .user {
@@ -116,7 +118,7 @@ html {
 
 }
 
-/* Main Section */
+/* Main section */
 
 .main-content {
     padding: 0 10px 0;
